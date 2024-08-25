@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ##lansmith tracking 
-os.environ["LANGCHAIN_API_KEY"]="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"
+os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAN_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_PROJECT"] = "Simple QnA Chatbot with OLLAMA"
 
