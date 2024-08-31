@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ##lansmith tracking 
-os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAN_API_KEY") ## create '.env' file and save all the API keys there with same name given here
+os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAN_API_KEY") ## Create '.env' file and save all the API keys there with the same name given here
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_PROJECT"] = "Simple QnA Chatbot with Groq"
  
